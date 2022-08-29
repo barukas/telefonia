@@ -192,9 +192,9 @@
 			<properties>
 				<db.line1>spring.datasource.url=jdbc:oracle:thin:@(DESCRIPTION
 					=(ADDRESS_LIST =(ADDRESS
-					=(PROTOCOL=TCP)(HOST=oracletelcel.eastus2.cloudapp.azure.com)(PORT=1521)))(CONNECT_DATA=(SID=telcelsgc)(GLOBAL_NAME=telcelsgc)(SERVER=DEDICATED)))</db.line1>
-				<db.line2>spring.datasource.username=TELCELSGC_APP</db.line2>
-				<db.line3>spring.datasource.password=T3lce1_P4ss1234</db.line3>
+					=(PROTOCOL=TCP)(HOST=XXXXX)(PORT=XXXXX)))(CONNECT_DATA=(SID=XXXXX)(GLOBAL_NAME=XXXXX)(SERVER=DEDICATED)))</db.line1>
+				<db.line2>spring.datasource.username=XXXXX</db.line2>
+				<db.line3>spring.datasource.password=XXXXX</db.line3>
 				<db.line4>spring.datasource.driver-class-name=oracle.jdbc.OracleDriver</db.line4>
 				<packaging>jar</packaging>
 				<start-class>com.telcel.sgc.services.war.Application</start-class>
@@ -217,9 +217,9 @@
 		<profile>
 			<id>dev</id>
 			<properties>
-				<db.line1>spring.datasource.url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.3.6.5)(PORT=1521)))(CONNECT_DATA=(SID=telcelsgc)(GLOBAL_NAME=telcelsgc)(SERVER=DEDICATED)))</db.line1>
-				<db.line2>spring.datasource.username=TELCELSGC_APP</db.line2>
-				<db.line3>spring.datasource.password=T3lce1_P4ss1234</db.line3>
+				<db.line1>spring.datasource.url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=XXXXX)(PORT=XXXXX)))(CONNECT_DATA=(SID=XXXXX)(GLOBAL_NAME=XXXXX)(SERVER=DEDICATED)))</db.line1>
+				<db.line2>spring.datasource.username=XXXXX</db.line2>
+				<db.line3>spring.datasource.password=XXXXX</db.line3>
 				<db.line4>spring.datasource.driver-class-name=oracle.jdbc.OracleDriver</db.line4>
 				<packaging>jar</packaging>
 				<start-class>com.telcel.sgc.services.war.Application</start-class>
@@ -269,9 +269,9 @@
 		<profile>
 			<id>telcel-qa</id>
 			<properties>
-				<db.line1>spring.datasource.url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.3.6.5)(PORT=1521)))(CONNECT_DATA=(SID=telcelsgc)(GLOBAL_NAME=telcelsgc)(SERVER=DEDICATED)))</db.line1>
-				<db.line2>spring.datasource.username=TELCELSGC_APP</db.line2>
-				<db.line3>spring.datasource.password=T3lce1_P4ss1234</db.line3>
+				<db.line1>spring.datasource.url=jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=XXXXX)(PORT=XXXXX)))(CONNECT_DATA=(SID=XXXXX)(GLOBAL_NAME=XXXXX)(SERVER=DEDICATED)))</db.line1>
+				<db.line2>spring.datasource.username=XXXXX</db.line2>
+				<db.line3>spring.datasource.password=XXXXX</db.line3>
 				<db.line4>spring.datasource.driver-class-name=oracle.jdbc.OracleDriver</db.line4>
 				<packaging>war</packaging>
 				<start-class>com.telcel.sgc.services.war.ApplicationWAS</start-class>
